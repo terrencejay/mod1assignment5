@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Sign up today</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link href="index.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <header>
+            <!-- place navbar here -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Columbia sports complex</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="amenities.html">Amenities</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="signin.html">Sign in</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="signup.html">Sign up</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-auto">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark" type="submit"> Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="masthead" style="background-image: url(photos/blue-gym-court.webp);">
+                <div class="color-overlay d-flex justify-content-center align-items-center">
+                    <div class="singleCol container text-center">
+                        <h1>The best gym in the world</h1>
+                        <p class="lead">
+                            <strong>
+                                Our prices for a membership start at $10.00/month, making health and fitness a priority and available to everyone.
+                                Save $30 when you buy a yearly membership.
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="Select a Username" aria-label="Username"
+                aria-describedby="basic-addon1">
+        </div>
+        
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter your email" aria-label="User email"
+                aria-describedby="basic-addon2">
+        </div>
+        <label>Password must be 8 characters long and contain at least one number, special character, and capital letter.</label>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter your password" aria-label="User password">
+        </div>
+        <label>Choose your plan</label>
+        <br>
+        <div class="btn-group-vertical" role="group" aria-label="choose your plan">
+            <button type="button" class="btn btn-secondary">Cheapest Option: $120.00/year</button>
+            <button type="button" class="btn btn-secondary">$35.00/month</button>
+            <div class="btn-group" role="group">
+                <button
+                    id="dropdownId"
+                    type="button"
+                    class="btn btn-secondary dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                >
+                    choose your plan
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="#">30.00 for 3 months</a>
+                    <a class="dropdown-item" href="#">25.00 for 6 months</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="input-group mb-3">
+            <span class="input-group-text">$</span>
+            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+            <span class="input-group-text">.00</span>
+        </div>
+        
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+        </div>
+    <footer class="bg-primary color-white row row-cols-5 py-5 my-5 border-top">
+        <div class="col">
+            <h5>Most popular classes</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="link-dark nav-link p-0">Spin class</a></li>
+                <li class="nav-item mb-2"><a href="#" class="link-dark nav-link p-0">Water aerobics</a></li>
+                <li class="nav-item mb-2"><a href="#" class="link-dark nav-link p-0">Yoga</a></li>
+                <li class="nav-item mb-2"><a href="#" class="link-dark nav-link p-0">HIIT classes</a></li>
+                <li class="nav-item mb-2"><a href="#" class="link-dark nav-link p-0">Kickboxing classes</a></li>
+            </ul>
+        </div>
+    
+        <div class="col">
+            <h5>Trainers Based on Goal</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="link-dark nav-link p-0 text-muted ">Weight loss</a></li>
+                <li class="nav-item mb-2"><a href="#" class="link-dark nav-link p-0 text-muted">Basketball</a></li>
+                <li class="nav-item mb-2"><a href="#" class="link-dark nav-link p-0 text-muted">Track</a></li>
+                <li class="nav-item mb-2"><a href="#" class="link-dark nav-link p-0 text-muted">Strength training</a></li>
+                <li class="nav-item mb-2"><a href="#" class="link-dark nav-link p-0 text-muted">Mixed martial arts</a></li>
+            </ul>
+        </div>
+    
+        <div class="col">
+            <h5>FAQ</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="link-dark nav-link p-0 text-muted">bestgym@columbia.com</a>
+                </li>
+                <li class="nav-item mb-2"><a href="#" class="link-dark nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="link-dark nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="link-dark nav-link p-0 text-muted">Court rental</a></li>
+                <li class="nav-item mb-2"><a href="#" class="link-dark nav-link p-0 text-muted">Upcoming Events</a></li>
+            </ul>
+        </div>
+    
+        <div class="card text-white bg-dark mb-3 bottom-0 end-0" style="max-width: 18rem;">
+            <div class="card-header">Our Gym Motto</div>
+            <div class="card-body">
+                <p class="card-text">"Sweat is just fat crying"
+                </p>
+            </div>
+        </div>
+    </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
